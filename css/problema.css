@@ -1,26 +1,30 @@
-#descripcion{
+.problema{
     grid-area: b1;
     background-color: #BC3FFA;
     color: gold;
     border-radius: 5px;
 }
-#datos{
+
+.datos{
     grid-area: b2;
     background-color: rgb(212, 152, 150);
     border-radius: 5px;
 }
-#formulas{
+
+.formulas{
     grid-area: b3;
     background-color: rgb(174, 222, 250);
     border-radius: 5px;
 }
-#solucion{
+
+.calculos{
     grid-area: b4;
     background-color: rgb(226, 166, 226);
     color: white;
     border-radius: 5px;
 }
-#resultado{
+
+.resultado{
     grid-area: b5;
     background-color: rgb(199, 204, 255);
     color: white;
@@ -46,24 +50,4 @@
     height: 100%;  
 }
  
-.gridProblema{
-    grid-area: b;  
-}
-#gridHeader{
-    grid-area: a;
-    width: 100%;
-    height: 200px;
-}
-#gridPie{
-    grid-area: c;
-}
-#problema{
-    display: grid;
-    grid-template-columns:  repeat(4, [col] 1fr) ;
-    grid-template-rows: auto;
-    grid-template-areas: "b1 b1 b1 b1"
-                         "b2 b2 b3 b3"
-                         "b4 b4 b5 b5";
-    width: 100%;
-    height: 100%;
-}
+
