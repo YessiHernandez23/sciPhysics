@@ -14,14 +14,20 @@ header, footer {
  height: 50px;
 }
 header{
+    display: inline-flex;
     font-family: 'Rambla', sans-serif;
     font-size: 1.0em;
 }
 
-#contenedor{
+#container{
     background-image: url(../images/phy11.jpg);
     display: block;
     height: 200px;
+}
+
+.otroIntento{
+    color: yellow;
+    font-weight:bold;
 }
 
 footer{
