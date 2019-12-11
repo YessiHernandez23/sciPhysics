@@ -1,0 +1,23 @@
+.logo{
+display:inherint;
+font-family: 'Ramba', sans-senrif;
+font-size:1.1em;
+margin: 0;
+}
+
+.logo a {
+text-decoration:none;
+}
+
+nav{
+display:display:inherint;
+}
+
+ul li{
+text-decoration:none;
+color:#ffffff;
+}
+
+ul li a: hover, ul li a.curreent{
+color:#000000;
+}
